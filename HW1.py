@@ -1,5 +1,5 @@
 # %%
-import pulp
+import pulp 
 
 # Instantiate the problem as "Diet Optimization LP"
 my_lp_problem = pulp.LpProblem("Diet_Optimization_LP", pulp.LpMinimize)
